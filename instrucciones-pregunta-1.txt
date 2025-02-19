@@ -19,11 +19,15 @@
 
    pip install -r requirements.txt
 
-5. **Ejecutar el servidor de desarrollo:**
+5. **Correr pruebas unitarias**
+
+   python manage.py test api
+
+6. **Ejecutar el servidor de desarrollo:**
 
    python manage.py runserver
 
-6. **Acceder a la aplicación en el navegador:**
+7. **Acceder a la aplicación en el navegador:**
 
    Abre el navegador y ve a:
 
