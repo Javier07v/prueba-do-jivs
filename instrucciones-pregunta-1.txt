@@ -1,0 +1,35 @@
+**Instrucciones para correr el proyecto Django Rest Framework**
+
+1. **Abrir la terminal** y navegar hasta la carpeta del proyecto:
+
+   cd pregunta1
+
+2. **Crear un entorno virtual** para el proyecto:
+
+   python -m venv venv
+
+3. **Activar el entorno virtual:**
+
+   - En Windows:
+     venv\Scripts\activate
+   - En macOS y Linux:
+     source venv/bin/activate
+
+4. **Instalar las dependencias del proyecto:**
+
+   pip install -r requirements.txt
+
+5. **Ejecutar el servidor de desarrollo:**
+
+   python manage.py runserver
+
+6. **Acceder a la aplicación en el navegador:**
+
+   Abre el navegador y ve a:
+
+   http://127.0.0.1:8000/
+
+**Notas:**
+- Asegúrate de tener Python instalado en tu sistema.
+- Si usas una versión de Python 3 específica, puedes ejecutar `python3 -m venv venv` en lugar de `python -m venv venv`.
+- Para salir del entorno virtual, usa `deactivate` en la terminal.
